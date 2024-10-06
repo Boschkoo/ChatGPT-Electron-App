@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.deinname.electronapp
+productName: ChatGPT Electron App
+files:
+  - filter:
+      - main.js
+      - package.json
+      - node_modules/**/*
+      - index.html
+win:
+  target: nsis
+  icon: build/icon.ico
+electronVersion: 32.1.2
