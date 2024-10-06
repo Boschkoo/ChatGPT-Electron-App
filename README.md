@@ -1,4 +1,4 @@
-echo "# ChatGPT-Electron-App
+ ChatGPT-Electron-App
 
 This is a simple desktop app built using Electron to integrate with ChatGPT.
 
