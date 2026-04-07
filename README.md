@@ -1,33 +1,35 @@
- ChatGPT-Electron-App
+# ChatGPT Electron App
 
-This is a simple desktop app built using Electron to integrate with ChatGPT.
-
-## How to Install
-
-1. **Clone this repository:**
-   \`\`\`bash
-   git clone https://github.com/Boschkoo/ChatGPT-Electron-App.git
-   \`\`\`
-
-2. **Navigate to the project folder:**
-   \`\`\`bash
-   cd ChatGPT-Electron-App
-   \`\`\`
-
-3. **Install the dependencies:**
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-4. **Run the app:**
-   \`\`\`bash
-   npm start
-   \`\`\`
+Lightweight desktop wrapper for ChatGPT built with Electron. Created before OpenAI's official desktop release — one of the earliest standalone ChatGPT clients.
 
 ## Features
-- Simple and intuitive interface.
-- Electron-based for cross-platform compatibility.
-- Uses ChatGPT for conversational AI.
+
+- Native desktop window for ChatGPT
+- No browser needed
+- Minimal footprint
+- Cross-platform (Windows, macOS, Linux)
+
+## Quick Start
+
+```bash
+git clone https://github.com/Boschkoo/ChatGPT-Electron-App.git
+cd ChatGPT-Electron-App
+npm install
+npm start
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+## Tech Stack
+
+- **Electron** — Desktop runtime
+- **JavaScript** — App logic
+- **HTML/CSS** — Interface
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details." > README.md
+
+MIT
